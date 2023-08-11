@@ -1,0 +1,24 @@
+@media screen and (max-width:1024px) {
+    .containar {
+        flex-direction: column;
+    }
+    .right_eliment {
+        width: 100%;
+        padding: 0 .5rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .right_eliment {
+        width: 100%;
+        padding:0.2rem 0.4rem;
+        grid-auto-rows: 220px;
+    }
+    .box{
+        grid-row: span 1;
+       grid-column: span 3;
+    }
+    .footer{
+        background-color: black;
+        color: white;
+    }
+}
